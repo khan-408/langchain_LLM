@@ -4,7 +4,8 @@ import streamlit as st
 from langchain_core.prompts import PromptTemplate,load_prompt
 
 from dotenv import load_dotenv
-load_dotenv()  # ✅ Make sure this is called first
+
+load_dotenv() 
 
 groq_api_key = os.getenv("GROQ_API_KEY")
 
